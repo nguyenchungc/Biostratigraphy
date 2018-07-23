@@ -37,7 +37,7 @@
         <input type="password" name="password" class="form-control" placeholder="Mật khẩu" required>
         <input type="password" name="confirm_password" class="form-control" placeholder="Nhập lại mật khẩu" required>
         
-        <button class="btn btn-lg btn-primary btn-block btn-signin" type="submit" name="login">Đăng kí</button>
+        <button class="btn btn-lg btn-primary btn-block btn-signin" type="submit" name="login">Cập nhật</button>
     </form><!-- /form -->
 </div><!-- /card-container -->
 @endsection

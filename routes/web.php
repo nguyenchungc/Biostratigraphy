@@ -18,3 +18,5 @@ Route::get('/', function () {
 route::get('home',"HomeController@getHome");
 
 route::get('register',"homeController@getRegister")->name('register');
+
+route::get('mainpage', "homeController@getmainpage");
