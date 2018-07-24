@@ -1,4 +1,4 @@
 <?php
-<p> hello world </p>
+echo "hello world"
 
 ?>

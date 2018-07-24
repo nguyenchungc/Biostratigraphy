@@ -10,8 +10,11 @@ class HomeController extends Controller
         return view('pages.register');
     }
     function getmainpage(){
-        echo "hello";
-        //return view('pages.mainpage');
+        //echo "hello";
+        return view('pages.mainpage');
+    }
+    function inputdata(){
+        return view('pages.inputdata');
     }
 }
 ?>
