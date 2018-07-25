@@ -22,3 +22,5 @@ route::get('register',"homeController@getRegister")->name('register');
 Route::get('mainpage', "homeController@getmainpage");
 
 route::get('inputdata',"homeController@inputdata");
+
+Route::get('trang-chu',"homeController@welcomePage");

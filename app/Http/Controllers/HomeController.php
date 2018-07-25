@@ -16,5 +16,8 @@ class HomeController extends Controller
     function inputdata(){
         return view('pages.inputdata');
     }
+    function welcomePage(){
+        return view('pages.wellcomePage');
+    }
 }
 ?>

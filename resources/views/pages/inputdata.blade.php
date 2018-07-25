@@ -25,7 +25,7 @@
               </div>
               <div class="form-group col-md-6">
                 <label for="inputPassword4">Tên giếng khoan</label>
-                <input type="password" class="form-control" id="inputPassword4" placeholder="Name of Well">
+                <input type="text" class="form-control" id="inputPassword4" placeholder="Name of Well">
               </div>
             </div>
             <div class="form-row col-md-6">
@@ -37,14 +37,14 @@
                 <label for="inputCity">Độ sâu cuối</label>
                 <input type="text" class="form-control" id="inputCity" placeholder="Base Interval">
               </div>
-              <div class="form-group col-md-4">
-                <label for="inputState">State</label>
-                <select id="inputState" class="form-control">
+              <div class="form-group col-md-6">
+                <label for="inputState">Nhà thầu</label>
+                <select id="inputState" class="form-control" placeholder="Operator">
                   <option selected>Choose...</option>
                   <option>...</option>
                 </select>
               </div>
-              <div class="form-group col-md-2">
+              <div class="form-group col-md-6">
                 <label for="inputZip">Zip</label>
                 <input type="text" class="form-control" id="inputZip">
               </div>
